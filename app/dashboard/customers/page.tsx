@@ -1,8 +1,10 @@
+import { fetchCustomers } from '@/app/lib/data'
+import CustomersTable from '@/app/ui/customers/table'
 import React from 'react'
 
-function page() {
+async function page() {
   return (
-    <p>Customers page</p>
+    <div>customers</div>
   )
 }
 
